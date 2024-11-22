@@ -75,7 +75,6 @@ def calc():
             list_res[ind-1:ind+2] = [list_res[ind-1] - list_res[ind+1]]
             continue
         ind += 1
-print(calc())
     return num2words(list_res[0], lang='ru')
 print(calc())
 
